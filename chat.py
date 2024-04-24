@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-
+from utils.dbfunctions import add_chatbot, check_chatbot, rm_chatbot
 # Initialize your Pyrogram client with your bot token and other details
 app = Client(
     "my_chatbot",
